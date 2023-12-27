@@ -20,11 +20,14 @@ body {
 
 .nav-list {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
     background-color: #EAEAEA;
 }
 
     .nav-item {
         margin: auto 0;
+        flex: 1 1 auto;
     }
 
         .nav-item a {
