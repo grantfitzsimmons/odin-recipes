@@ -6,7 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #f2f2f2;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
 }
 
 .icon {
@@ -21,20 +21,19 @@ body {
 .nav-list {
     margin: 0 auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     background-color: #EAEAEA;
 }
 
     .nav-item {
         margin: auto 0;
-        flex: 1 1 auto;
     }
 
         .nav-item a {
             color:black;
             padding: 15px;
             display: flex;
-            align-items: center; 
             height: 100%;
         }
 
